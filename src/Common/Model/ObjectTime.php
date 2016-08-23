@@ -1,5 +1,5 @@
 <?php
-namespace Common\Model;
+namespace Marmot\Common\Model;
 
 /**
  * 时间性状,包括 创建时间 和 更新时间.

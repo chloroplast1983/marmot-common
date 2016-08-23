@@ -1,5 +1,5 @@
 <?php
-namespace Common\Model;
+namespace Marmot\Common\Model;
 
 /**
  * 对象唯一标识性状.

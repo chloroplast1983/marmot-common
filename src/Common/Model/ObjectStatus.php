@@ -1,5 +1,5 @@
 <?php
-namespace Common\Model;
+namespace Marmot\Common\Model;
 
 /**
  * 状态性状,包括 修改状态 和 状态修改的时间.
