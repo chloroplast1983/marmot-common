@@ -3,8 +3,6 @@ namespace Marmot\Common\Model;
 
 abstract class ComplexData
 {
-	use ObjectIdentify;
-
     /**
      * @var string id,存储id
      */
