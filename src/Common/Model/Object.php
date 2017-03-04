@@ -4,12 +4,11 @@ namespace Marmot\Common\Model;
 /**
  * 对象性状.
  * @author chloroplast
- * @version 1.0.0:2016.07.03
+ * @version 2.0.0:2017.03.04
  */
  
 trait Object
 {
-    use ObjectIdentify;
     use ObjectStatus;
     use ObjectTime;
 }
