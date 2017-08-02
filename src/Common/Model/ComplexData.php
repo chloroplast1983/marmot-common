@@ -14,7 +14,6 @@ abstract class ComplexData
 
     public function __construct(array $complexData = array(), string $id = '')
     {
-        global $_FWGLOBAL;
         $this->complexData = !empty($complexData) ? $complexData : array();
         $this->id = !empty($id) ? $id : '';
     }

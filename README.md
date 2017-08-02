@@ -2,9 +2,9 @@
 
 ---
 
-###概述
+### 概述
 
-####文件目录
+#### 文件目录
 
 		src
 			Common
@@ -12,10 +12,12 @@
 					ComplexData.php
 					Object.php
 					IObjet.php
+					IObjectStatus.php
 					ObjectStatus.php
+					IObjectTime.php
 					ObjectTime.php
 					
-####文件概述
+#### 文件概述
 
 **ComplexData 抽象复杂数据类**
 
@@ -70,11 +72,11 @@
 * `setUpdateTime(int $updateTime)`: 设置更新时间
 * `getUpdateTime() : int`: 获取更新时间
 
-#####`object`
+##### `object`
 
 该文件引用了所有我们对于`对象公共的性状`.这样如果一个类只需要单独引用我们该`Object`性状即可,不需要分开引用其他性状.
 
-###使用
+### 使用
 
 		use Marmot\Common\Model\Object;
 		
@@ -83,19 +85,25 @@
 			use Object;
 		}
 		
-###版本概述
+### 版本概述
 
-####1.0.0
+#### 1.0.0
 
 初始化,使用性状实现了一些框架内部抽象的对象共用方法.
 
-####1.1.0
+#### 1.1.0
 
 添加了`ComplexData.php`,对一些复杂数据对象实现了抽象类.
 
-####1.2.0
+#### 1.2.0
 
 * 添加了`IObject`对象,因为性状不能实现类似`instanceof`的判断.
 * 取消了`ObjectIdentify`性状,因为内部都是抽象方法,使用接口来实现.
 * 取消了`Object`性状中引用的`ObjectIdentify`.
 * 取消了`ObjectStatus`的`setStatus`,使用接口来实现.
+
+#### 1.3.0
+
+* 添加`IObjectIdentify`的接口.
+* 添加`IObjectStatus`的接口.
+* `IObject`接口现在`extends IObjectIdentify,IObjectStatus`.
