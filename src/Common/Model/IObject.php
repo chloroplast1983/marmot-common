@@ -4,7 +4,7 @@ namespace Marmot\Common\Model;
 /**
  * Object 接口
  */
-interface IObject extends IObjectTime,IObjectStatus
+interface IObject extends IObjectTime, IObjectStatus
 {
     /**
      * 设置id

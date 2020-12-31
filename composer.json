@@ -10,9 +10,18 @@
         }
     ],
     "require": {},
+    "require-dev": {
+        "chloroplast/marmot-dev-pacakges": "1.0.1"
+    },
     "autoload": {
         "psr-4": {
             "Marmot\\Common\\": "src/Common"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
         }
     }
 }

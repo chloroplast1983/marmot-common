@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  phpfpm:
+    image: "registry.cn-hangzhou.aliyuncs.com/phpfpm/phpfpm-end:latest"
+    volumes:
+      - ./:/var/www/html/
+    container_name: marmot-common-phpfpm

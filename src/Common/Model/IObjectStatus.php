@@ -4,7 +4,8 @@ namespace Marmot\Common\Model;
 /**
  * IObjectStatus 状态接口
  */
-interface IObjectStatus {
+interface IObjectStatus
+{
 
     /**
      * 设置对象状态更新时间

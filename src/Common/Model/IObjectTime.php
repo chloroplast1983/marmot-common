@@ -4,7 +4,8 @@ namespace Marmot\Common\Model;
 /**
  * IObjectTime 时间接口
  */
-interface IObjectTime {
+interface IObjectTime
+{
 
     /**
      * 设置新闻发布时间
