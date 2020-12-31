@@ -31,7 +31,7 @@ class ObjectTest extends TestCase
 
     //id 测试 ---------------------------------------------------------- start
     /**
-     * 设置 MockObject setId() 正确的传参类型,期望传值正确
+     * 设置 Object setId() 正确的传参类型,期望传值正确
      */
     public function testSetIdCorrectType()
     {
@@ -42,7 +42,7 @@ class ObjectTest extends TestCase
 
     //status 测试 -------------------------------------------------------- start
     /**
-     * 设置 MockObject setStatus() 正确的传参类型,期望传值正确
+     * 设置 Object setStatus() 正确的传参类型,期望传值正确
      */
     public function testSetStatusCorrectType()
     {
@@ -51,7 +51,7 @@ class ObjectTest extends TestCase
     }
 
     /**
-     * 设置 MockObject setStatus() 错误的传参类型,期望期望抛出TypeError exception
+     * 设置 Object setStatus() 错误的传参类型,期望期望抛出TypeError exception
      *
      * @expectedException TypeError
      */
@@ -63,7 +63,7 @@ class ObjectTest extends TestCase
 
     //statusTime 测试 -------------------------------------------------------- start
     /**
-     * 设置 MockObject setStatusTime() 正确的传参类型,期望传值正确
+     * 设置 Object setStatusTime() 正确的传参类型,期望传值正确
      */
     public function testSetStatusTimeCorrectType()
     {
@@ -72,7 +72,7 @@ class ObjectTest extends TestCase
     }
 
     /**
-     * 设置 MockObject setStatusTime() 错误的传参类型,期望期望抛出TypeError exception
+     * 设置 Object setStatusTime() 错误的传参类型,期望期望抛出TypeError exception
      *
      * @expectedException TypeError
      */
@@ -84,7 +84,7 @@ class ObjectTest extends TestCase
 
     //createTime 测试 -------------------------------------------------------- start
     /**
-     * 设置 MockObject setCreateTime() 正确的传参类型,期望传值正确
+     * 设置 Object setCreateTime() 正确的传参类型,期望传值正确
      */
     public function testSetCreateTimeCorrectType()
     {
@@ -93,7 +93,7 @@ class ObjectTest extends TestCase
     }
 
     /**
-     * 设置 MockObject setCreateTime() 错误的传参类型,期望期望抛出TypeError exception
+     * 设置 Object setCreateTime() 错误的传参类型,期望期望抛出TypeError exception
      *
      * @expectedException TypeError
      */
@@ -105,7 +105,7 @@ class ObjectTest extends TestCase
 
     //updateTime 测试 -------------------------------------------------------- start
     /**
-     * 设置 MockObject setUpdateTime() 正确的传参类型,期望传值正确
+     * 设置 Object setUpdateTime() 正确的传参类型,期望传值正确
      */
     public function testSetUpdateTimeCorrectType()
     {
@@ -114,7 +114,7 @@ class ObjectTest extends TestCase
     }
 
     /**
-     * 设置 MockObject setUpdateTime() 错误的传参类型,期望期望抛出TypeError exception
+     * 设置 Object setUpdateTime() 错误的传参类型,期望期望抛出TypeError exception
      *
      * @expectedException TypeError
      */
