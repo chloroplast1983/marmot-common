@@ -9,7 +9,9 @@
             "email": "41893204@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "chloroplast/marmot-interface": "0.9.1"
+    },
     "require-dev": {
         "chloroplast/marmot-dev-pacakges": "1.0.1"
     },

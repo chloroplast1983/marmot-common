@@ -84,11 +84,6 @@ class Core
         //加载框架Application文件的autoload,匿名函数 -- 开始
     }
 
-    private function initTestEnv()
-    {
-        $_ENV['APP_ENV'] = 'test';
-    }
-
     protected function getAppPath() : string
     {
         return APP_ROOT;
