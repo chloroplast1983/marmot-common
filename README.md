@@ -8,28 +8,29 @@
 
 ```
 src
-	Common
-		Controller
-			IFetchAbleController.php
-			IOperateAbleController.php
-			IEnableAbleController.php
-		Command
-			AddCommand.php
-			EditCommand.php
-			EnableCommand.php
-			DisableCommand.php
-		Model
-			ComplexData.php
-			Object.php
-			IObjet.php
-			IObjectStatus.php
-			ObjectStatus.php
-			IObjectTime.php
-			ObjectTime.php
-			IOperateAble.php
-			IEnableAble.php
-			OperateTrait.php
-			EnableTrait.php
+└── Common
+    ├── Command
+    │   ├── AddCommand.php
+    │   ├── DisableCommand.php
+    │   ├── EditCommand.php
+    │   └── EnableCommand.php
+    ├── Controller
+    │   └── Interfaces
+    │       ├── IEnableAbleController.php
+    │       ├── IFetchAbleController.php
+    │       └── IOperateAbleController.php
+    └── Model
+        ├── ComplexData.php
+        ├── EnableTrait.php
+        ├── IEnableAble.php
+        ├── IObject.php
+        ├── IObjectStatus.php
+        ├── IObjectTime.php
+        ├── IOperateAble.php
+        ├── Object.php
+        ├── ObjectStatus.php
+        ├── ObjectTime.php
+        └── OperateTrait.php
 ```
 					
 ### 文件概述
