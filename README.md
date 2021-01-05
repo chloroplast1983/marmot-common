@@ -46,8 +46,8 @@ src
 
 **IObjet marmot对象接口**
 
-* `setId(int id)`: 设置对象`id`
-* `getId(): int`: 获取对象`id`	
+* `setId(id)`: 设置对象`id`
+* `getId()`: 获取对象`id`	
 * `setStatusTime(int $statusTime)`: 设置对象状态更新时间
 * `getStatusTime() int`: 获取对象状态更新时间
 * `setStatus(int $status)`: 设置对象状态
